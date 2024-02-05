@@ -1,0 +1,109 @@
+/* modal start */
+#modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 70%);
+}
+#modal > div {
+  margin-top: 100px;
+  padding: 2rem;
+  background-color: #ffffffde;
+  text-align: center;
+  color: #242424;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+#modal > div p {
+  margin-bottom: 1rem;
+}
+#modal > div #confirm {
+  margin-right: 1rem;
+}
+/* modal end */
+/* header start */
+header,
+.header__icon {
+  display: flex;
+  align-items: center;
+}
+header {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+@media (max-width: 28.1875em) {
+  header {
+    justify-content: center;
+  }
+}
+header .header__icon {
+  justify-content: center;
+  gap: 0.5rem;
+}
+/* header end */
+/* empty message start */
+.empty-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100svh - 136px);
+  text-align: center;
+  font-size: 3rem;
+}
+/* empty message end */
+/* cart start */
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: calc(100svh - 80px);
+}
+.cart .cart__items {
+  padding: 2rem 0;
+}
+.cart .cart__items .cart__item,
+.cart .cart__items .cart__item .cart__item--control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart .cart__items .cart__item:first-child {
+  border-top: 1px solid #646cff;
+}
+.cart .cart__items .cart__item {
+  border-bottom: 1px solid #646cff;
+  padding: 1rem 0;
+  gap: 1rem;
+}
+.cart .cart__items .cart__item h3 {
+  flex: 0.5;
+}
+.cart .cart__items .cart__item p {
+  text-align: center;
+}
+@media (max-width: 38.75em) {
+  .cart .cart__items .cart__item {
+    flex-direction: column;
+  }
+}
+.cart .cart__items .cart__item .cart__item--control {
+  gap: 0.5rem;
+}
+.cart h4 {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  border: 2px dotted #646cff;
+  padding: 1rem;
+}
+/* cart end */
