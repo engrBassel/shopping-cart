@@ -6,4 +6,4 @@
 - In the cart, there are an image of the item, its name, its quantity with plus and minus buttons to increase or decrease it, the total price of it and a remove button.
 - If the user clicked the minus and the quantity was 1, the item will be removed.
 - In the bottom, there is the total price.
-- Using Vite, React, TypeScript, Redux-toolkit, Axios.
+- Using Vite, React, TypeScript, Redux Toolkit, Axios.
